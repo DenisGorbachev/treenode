@@ -1,10 +1,10 @@
 [package]
-name = "just-tree"
+name = "treenode"
 version = "0.1.0"
 edition = "2021"
 description = "A simple Node struct"
-homepage = "https://github.com/DenisGorbachev/just-tree"
-repository = "https://github.com/DenisGorbachev/just-tree"
+homepage = "https://github.com/DenisGorbachev/treenode"
+repository = "https://github.com/DenisGorbachev/treenode"
 readme = "README.md"
 keywords = []
 categories = []
@@ -28,9 +28,3 @@ subtype = { git = "https://github.com/DenisGorbachev/subtype" }
 
 [package.metadata.cargo-machete]
 ignored = ["derive_more", "derive-getters", "derive-new", "fmt-derive", "stub-macro", "standard-traits", "helpful", "subtype"]
-
-
-
-
-
-

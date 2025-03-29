@@ -134,20 +134,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "just-tree"
-version = "0.1.0"
-dependencies = [
- "derive-getters",
- "derive-new",
- "derive_more 2.0.1",
- "fmt-derive",
- "helpful",
- "standard-traits",
- "stub-macro",
- "subtype",
-]
-
-[[package]]
 name = "lazy_static"
 version = "1.5.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -344,6 +330,20 @@ dependencies = [
  "sharded-slab",
  "thread_local",
  "tracing-core",
+]
+
+[[package]]
+name = "treenode"
+version = "0.1.0"
+dependencies = [
+ "derive-getters",
+ "derive-new",
+ "derive_more 2.0.1",
+ "fmt-derive",
+ "helpful",
+ "standard-traits",
+ "stub-macro",
+ "subtype",
 ]
 
 [[package]]

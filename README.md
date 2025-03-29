@@ -4,16 +4,16 @@
 
 # A simple Node struct
 
-[![Build](https://github.com/DenisGorbachev/just-tree/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/just-tree)
+[![Build](https://github.com/DenisGorbachev/treenode/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/treenode)
 
 This is a module-level comment for a Rust lib
 
 ## Installation
 
 ```shell
-cargo add just-tree
+cargo add treenode
 ```
 
 ## Gratitude
 
-Like the project? [⭐ Star this repo](https://github.com/DenisGorbachev/just-tree) on GitHub!
+Like the project? [⭐ Star this repo](https://github.com/DenisGorbachev/treenode) on GitHub!
