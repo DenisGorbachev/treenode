@@ -6,8 +6,6 @@
 
 [![Build](https://github.com/DenisGorbachev/treenode/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/treenode)
 
-This is a module-level comment for a Rust lib
-
 ## Installation
 
 ```shell
