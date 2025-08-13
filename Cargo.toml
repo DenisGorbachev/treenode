@@ -1,8 +1,9 @@
 [package]
 name = "treenode"
 version = "0.1.0"
-edition = "2021"
+edition = "2024"
 description = "A simple Node struct"
+license = "Apache-2.0 OR MIT"
 homepage = "https://github.com/DenisGorbachev/treenode"
 repository = "https://github.com/DenisGorbachev/treenode"
 readme = "README.md"
@@ -20,6 +21,17 @@ derive-new = "0.7.0"
 derive_builder = "0.20.0"
 derive_setters = { version = "0.1.0" }
 serde = { version = "1.0.0", features = ["derive"], optional = true }
+strum = { version = "0.27.1", features = ["derive"] }
 
 [package.metadata.cargo-machete]
-ignored = ["derive_more", "derive-getters", "derive-new", "fmt-derive", "stub-macro", "standard-traits", "helpful", "subtype"]
+ignored = [
+    "derive-getters",
+    "derive-new",
+    "derive_more",
+    "fmt-derive",
+    "helpful",
+    "standard-traits",
+    "strum",
+    "stub-macro",
+    "subtype"
+]

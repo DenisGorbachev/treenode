@@ -4,7 +4,7 @@
 
 # A simple Node struct
 
-[![Build](https://github.com/DenisGorbachev/treenode/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/treenode)
+
 
 ## Installation
 
@@ -15,3 +15,9 @@ cargo add treenode
 ## Gratitude
 
 Like the project? [⭐ Star this repo](https://github.com/DenisGorbachev/treenode) on GitHub!
+
+## License
+
+[Apache-2.0](LICENSE-APACHE) or [MIT](LICENSE-MIT).
+
+Unless you explicitly state otherwise, any contribution intentionally submitted for inclusion in this crate by you, shall be licensed as above, without any additional terms or conditions.
