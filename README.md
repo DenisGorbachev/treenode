@@ -4,7 +4,12 @@
 
 # A simple Node struct
 
+[![Build](https://github.com/DenisGorbachev/treenode/actions/workflows/ci.yml/badge.svg)](https://github.com/DenisGorbachev/treenode)
+[![Documentation](https://docs.rs/treenode/badge.svg)](https://docs.rs/treenode)
 
+<!-- crate documentation start -->
+
+<!-- crate documentation end -->
 
 ## Installation
 

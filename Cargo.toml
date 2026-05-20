@@ -10,6 +10,22 @@ repository = "https://github.com/DenisGorbachev/treenode"
 readme = "README.md"
 keywords = []
 categories = []
+exclude = [
+    ".*",
+    "*.local.*",
+    "doc/dev",
+    "specs",
+    "README.ts",
+    "AGENTS*.md",
+    "CLAUDE*.md",
+    "deno.json",
+    "commitlint.config.mjs",
+    "lefthook.yml",
+    "mise.toml",
+    "rumdl.toml",
+    "rustfmt.toml",
+    ".yolobox"
+]
 
 [package.metadata.details]
 title = "A simple Node struct"
@@ -22,17 +38,3 @@ derive-new = "0.7.0"
 derive_builder = "0.20.0"
 derive_setters = { version = "0.1.0" }
 serde = { version = "1.0.0", features = ["derive"], optional = true }
-strum = { version = "0.27.1", features = ["derive"] }
-
-[package.metadata.cargo-machete]
-ignored = [
-    "derive-getters",
-    "derive-new",
-    "derive_more",
-    "fmt-derive",
-    "helpful",
-    "standard-traits",
-    "strum",
-    "stub-macro",
-    "subtype"
-]
