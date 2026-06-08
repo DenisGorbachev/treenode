@@ -491,8 +491,8 @@ serde = { version = "1.0.0", features = ["derive"], optional = true }
 if_missing = "error"
 
 [providers]
-keychain = { type = "keychain", service = "rust-public-lib-template" }
-pass = { type = "password-store", prefix = "rust-public-lib-template/" }
+keychain = { type = "keychain", service = "treenode" }
+pass = { type = "password-store", prefix = "treenode/" }
 ```
 
 ### src/lib.rs
