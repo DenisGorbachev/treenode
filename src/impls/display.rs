@@ -1,11 +1,11 @@
-use std::fmt::{Display, Error, Formatter};
+use std::fmt::{self, Display, Error, Formatter};
 
 use crate::Node;
 
 impl<Data: Display> Display for Node<Data> {
-    fn fmt(&self, f: &mut Formatter<'_>) -> std::fmt::Result {
+    fn fmt(&self, f: &mut Formatter<'_>) -> fmt::Result {
         // Helper function to format the structure with indentation
-        fn format_with_indent<Data: Display>(node: &Node<Data>, indent: usize, f: &mut Formatter<'_>) -> std::fmt::Result {
+        fn format_with_indent<Data: Display>(node: &Node<Data>, indent: usize, f: &mut Formatter<'_>) -> fmt::Result {
             let Node {
                 data,
                 children,
