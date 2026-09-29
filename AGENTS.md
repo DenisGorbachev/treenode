@@ -493,6 +493,16 @@ Notes:
 
 - Should match the thread topic
 
+#### Chat thread id heading
+
+A Markdown heading level 3 that contains only [chat thread id](#chat-thread-id).
+
+Examples:
+
+- `### RVC`
+- `### AKE`
+- `### LMY`
+
 #### findings.md
 
 - If it exists:
@@ -512,8 +522,6 @@ Notes:
       - Then: "\n\n" and a Markdown nested list of fixes where each fix must have a format `{number}. {description}` (the numbers should start from 1 for each list of fixes)
       - Else: the exact text "none."
 
-### Project files
-
 #### Publishable package
 
 A package that has a remote whose name contains `public` or `pre-public` and ends with `template`.
@@ -524,7 +532,7 @@ A package that has a remote whose name contains `public` or `pre-public` and end
 
 ```shell
 origin
-repoconf-rust-pre-public-lib-template
+repoconf-rust-public-lib-template
 ```
 
 ## Project files
@@ -723,7 +731,7 @@ age = { type = "age", recipients = [
 resolver = "3"
 
 [workspace.package]
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 rust-version = "1.88.0"
 license = "Apache-2.0 OR MIT"
@@ -793,7 +801,7 @@ derive_setters = { version = "0.1.0" }
 serde = { version = "1.0.0", features = ["derive"], optional = true }
 ```
 
-#### src/lib.rs
+### src/lib.rs
 
 ```rust
 #![cfg_attr(not(test), deny(unused_crate_dependencies))]
