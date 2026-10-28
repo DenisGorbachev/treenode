@@ -7,6 +7,19 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.1.2](https://github.com/DenisGorbachev/treenode/compare/v0.1.1...v0.1.2) - 2026-10-28
+
+### Fixed
+
+- CLAUDE
+- Cargo
+- shuck
+- install-hooks
+
+### Other
+
+- *(deps)* update errgonomic to 0.5.3
+
 ## [0.1.1](https://github.com/DenisGorbachev/treenode/compare/v0.1.0...v0.1.1) - 2026-09-06
 
 ### Added
