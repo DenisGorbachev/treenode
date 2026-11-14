@@ -1,5 +1,3 @@
-#![cfg_attr(not(test), deny(unused_crate_dependencies))]
-
 use derive_builder::Builder;
 use derive_new::new;
 use derive_setters::Setters;

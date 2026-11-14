@@ -783,8 +783,6 @@ serde = { version = "1.0.0", features = ["derive"], optional = true }
 ### src/lib.rs
 
 ```rust
-#![cfg_attr(not(test), deny(unused_crate_dependencies))]
-
 use derive_builder::Builder;
 use derive_new::new;
 use derive_setters::Setters;
